@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+
+}
+
+/* shared styles*/
+.container {
+    max-width: 1440px;
+    width: 81.25%;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.start-title {
+    text-align: start;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 16px 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* nav styles */
+.hidden {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 44px;
+    color: #424247;
+    font-size: 18px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.banner-title {
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.path {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    padding: 100px 185px;
+    border-radius: 16px;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner-text {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-description {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.rectangle-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 135px;
+
+
+}
+
+.rectangle-3>input {
+    outline: #FFF;
+    border: none;
+    width: 135px;
+
+
+
+
+}
+
+.rectangle-sm {
+    padding: 16px 15px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Our Popular section */
+
+.popular-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 53px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.popular-text * {
+    margin-bottom: 24px;
+}
+
+.popular-text {
+    width: 50%;
+}
+
+.popular-img {
+    width: 50%;
+}
+
+.popular-img img {
+    width: 100%;
+}
+
+/* Choose Your Destination Section  */
+
+.choose-main {
+    margin-top: 100px;
+}
+
+.choose-text {
+    margin: 0 auto;
+    width: 643px;
+    text-align: center;
+}
+
+.choose-text * {
+    margin-bottom: 24px;
+}
+
+.cards {
+    width: 573px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 20px;
+    
+    
+}
+
+.img-cards-1 {
+    background-image: url('/Images/Rectangle\ 5.png');   
+}
+.img-cards-2 {
+    background-image: url('/Images/Rectangle\ 8.png');   
+}
+.img-cards-3 {
+    background-image: url('/Images/Rectangle\ 6.png');   
+}
+.img-cards-4 {
+    background-image: url('/Images/Rectangle\ 7.png');   
+}
+.img-cards-5 {
+    background-image: url('/Images/Rectangle\ 9.png');   
+}
+.img-cards-6{
+    background-image: url('/Images/Rectangle\ 11.png');   
+}
+.img-cards-7 {
+    background-image: url('/Images/Rectangle\ 10.png');   
+}
+
+.card-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.flex-cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.img-cards-3{
+    width: 35%;
+}
+.img-cards-4{
+    width: 40%;
+}
+.img-cards-5{
+    width: 25%;
+}
+.img-cards-6{
+    width:40% ;
+}
+.img-cards-7{
+    width:60%
+}
+@media screen and (max-width:600px) {
+    .container {
+        max-width: 600px;
+        width: 87%;
+        margin: 0 auto;
+    }
+
+    nav {
+        padding: 20px 0;
+
+    }
+
+    nav>ul {
+        display: none;
+
+    }
+
+    .hidden {
+        display: block;
+
+    }
+
+    .banner-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .path {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner-section {
+        padding: 32px 15px;
+    }
+
+    .banner-text {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner-description {
+        width: 304px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+
+        /* 150% */
+    }
+
+    .rectangle {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .rectangle-3 {
+        width: 240px;
+
+    }
+
+    .rectangle-3 input {
+        width: 240px;
+    }
+
+    /* Our Popular section */
+    .popular-section {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .popular-text * {
+        margin-bottom: 16px;
+    }
+    .popular-text ul {
+        padding: 0 20px;
+    }
+    .popular-img img {
+        width: 100%;
+    }   
+    .popular-img {
+        width: 100%;
+    }
+    .popular-text {
+        width: 100%;
+    }
+
+
+    /* Choose Your Destination section */
+    .choose-main {
+        margin-top: 24px;
+    }
+    .choose-text {
+        /* margin: 0 auto; */
+        width: 309px;
+        text-align: center;
+    }
+    .flex-cards{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+}
