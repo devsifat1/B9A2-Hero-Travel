@@ -145,7 +145,7 @@ nav li a {
 .rectangle-3>input {
     outline: #FFF;
     border: none;
-    width: 135px;
+    width: 100px;
 
 
 
@@ -311,7 +311,7 @@ nav li a {
 
 }
 
-.box-inner{
+.box-inner {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     padding: 32px;
@@ -320,17 +320,114 @@ nav li a {
     gap: 24px;
     margin-top: 38px;
 }
-.box-inner-color0-1{
+
+.box-inner-color0-1 {
     background: rgba(251, 181, 99, 0.05);
 }
-.box-inner-color0-2{
-    background: rgba(41, 206, 246, 0.05);}
-.box-inner-color0-3{
+
+.box-inner-color0-2 {
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-inner-color0-3 {
     background: rgba(233, 68, 68, 0.05);
 }
-.one-box{
+
+.one-box {
     margin: 0 auto;
     width: 50%;
+}
+
+/* newsletter section */
+.newsletter-main {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+.newsletter-left-child {
+    width: 33%;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.newsletter-left-child input {
+    width: 300px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    padding: 16px 20px;
+}
+
+.newsletter-img {
+    background-image: url('/Images/Rectangle\ 88898.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 100%;
+    height: 422px;
+
+
+}
+
+.news-btn {
+    width: 100%;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.rotate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 120px;
+    transform: rotate(-25.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    gap: 20px;
+
+}
+
+.rotate-flex {
+    margin-top: -180px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-main{
+ 
+    margin-top:  180px;
+    margin-bottom:  80px;
+    
+
+}
+.f-main div{
+    margin: auto;
+    width: 769px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
 }
 @media screen and (max-width:600px) {
 
@@ -469,14 +566,55 @@ nav li a {
     .why-choose-us-text {
         width: 309px;
     }
+
     .tow-box {
         flex-direction: column;
         gap: 16px;
     }
-    .box-inner{
+
+    .box-inner {
         margin: 0;
     }
-    .one-box{
+
+    .one-box {
         width: 100%;
     }
+
+    /* news */
+    .newsletter-main {
+        flex-direction: column;
+    }
+
+    .newsletter-left-child {
+        width: 100%;
+    }
+
+    .news-btn {
+        width: 100%;
+
+
+    }
+
+    .newsletter-left-child input {
+        width: 290px;
+
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: none;
+        outline: none;
+        margin-top: 10px;
+
+    }
+
+    .newsletter-left-child {
+
+        padding: 20px 10px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+
+    }
+    .f-main div{
+        width: 287px;
+    }
+
 }
